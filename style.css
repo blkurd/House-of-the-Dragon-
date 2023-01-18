@@ -1,4 +1,36 @@
-body{
+body {
+  text-align: center;
+  align-items: center;
+  background: url("https://static.hbo.com/2022-06/house-of-the-dragon-ka-1920.jpg");
+}
 
-    background-color: blue;
+p {
+  color: white;
+  font-size: 50px;
+}
+
+input {
+  padding: 10px;
+}
+
+.card {
+  margin: 40px;
+  max-width: 250px;
+  max-height: 350px;
+  box-shadow: 0 40px 60px -6px black;
+}
+
+.card img {
+  width: 100%;
+  height: 98%;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #fff;
+  margin: 40px 0 20px 0;
+  text-align: center;
 }
